@@ -1,0 +1,139 @@
+body {
+  margin-bottom: 60px;
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.netflixbutton {
+  background-color: black;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow:
+  0 1px 2px #fff,
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5),
+  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+.facebookbutton {
+  background-color: #3b5998;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow:
+  0 1px 2px #fff,
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5),
+  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+.twitterbutton {
+  background-color: #1dcaff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow:
+  0 1px 2px #fff,
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5),
+  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+.youtubebutton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow:
+  0 1px 2px #fff,
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5),
+  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+
+.youtubebutton em {
+  color: black;
+  font-style: normal;
+}
+
+.wikibutton {
+  background-color: #e6e6e6;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow:
+    0 1px 2px #fff,
+    0 -1px 1px #666,
+    inset 0 -1px 1px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.8);
+}
+
+h1 {
+  color: #181818;
+  font-family: Helvetica;
+  font-size: 5rem;
+  letter-spacing: -1.5px;
+  transform: scale(1, 0.75);
+  -webkit-text-stroke: 3px black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 em {
+  color: #456a8e;
+  font-style: normal;
+  -webkit-text-stroke: 3px #456a8e;
+}
+
+h2 {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: -0.5rem;
+}
+
+p {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: italic;
+}
