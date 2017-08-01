@@ -33,7 +33,7 @@ export default class Interactive extends preact.Component {
        <button class="netflixbutton" onClick={() => this.setState({ view: 'NETFLIX' })}><b>Netflix</b></button>
        <button class="facebookbutton" onClick={() => this.setState({ view: 'FACEBOOK' })}><b>Facebook</b></button>
        <button class="twitterbutton" onClick={() => this.setState({ view: 'TWITTER' })}><b>Twitter</b></button>
-       <button class="youtubebutton" onClick={() => this.setState({ view: 'YOUTUBE' })}><b><em>You</em>tube</b></button>
+       <button class="youtubebutton" onClick={() => this.setState({ view: 'YOUTUBE' })}><b><em>You</em>Tube</b></button>
        <button class="wikibutton" onClick={() => this.setState({ view: 'WIKIPEDIA' })}><b>Wikipedia</b></button>
 
         {state.view !== null ? <img src={imageMap[state.view]} /> : null}
